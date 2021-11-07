@@ -1,0 +1,234 @@
+/* &display=swap - добавить в конце строки при использовании плагина Google Fonts 
+&subset=cyrillic-ext - добавить (без пробела) к выше указанному для работы кириллического начертания*/
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px; /* по умолчанию */
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1;
+	color: #000102;
+}
+
+.wrapper {
+	background: #d1d4d0;
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+header {
+	padding: 30px 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 30px;
+	padding-left: 30px;
+	font-weight: 600;
+}
+
+h2 span {
+	color: #ff0000;
+}
+
+.element {
+	font-size: 19px;
+	padding: 20px 0 0 220px;
+}
+
+.block {
+	margin: 20px auto;
+	width: 350px;
+	padding: 15px;
+	background: #e2c977;
+	border: none;
+}
+
+.line {
+	line-height: 2;
+	padding: 10px;
+}
+
+.param-1 .block-1 {
+	border: 4px solid #000;
+}
+
+.param-1 .block-2 {
+	border: 5px dotted #2404da;
+}
+
+.param-1 .block-3 {
+	border: 6px dashed #008000;
+}
+
+.param-1 .block-4 {
+	border: 7px double #ff0000;
+}
+
+.param-1 .block-5 {
+	border-top: 4px solid #000;
+	border-right: 5px dotted #2404da;
+	border-bottom: 6px dashed #008000;
+	border-left: 7px double #ff0000;
+}
+
+.param-1 .line {
+	border: 4px dotted #ee82ee;
+}
+
+.param-2 .block-1 {
+	border-color: transparent;
+	border-radius: 100% 20% 100% 20% / 20% 100% 20% 100% ;
+}
+
+.param-2 .block-2 {
+	border: 5px dotted #2404da;
+	border-radius: 26% 74% 24% 76% / 77% 80% 20% 23%;
+}
+
+.param-2 .block-3 {
+	padding-top: 120px;
+	height: 350px;
+	border: 6px dashed #008000;
+	border-radius: 50% 50% 0 50%;
+} 
+
+.param-2 .block-4 {
+	padding-top: 120px;
+	height: 350px;
+	border: 7px double #ff0000;
+	border-top: none;
+	border-radius: 50%;
+}
+
+.param-2 .line {
+	border: 4px dotted #ee82ee;
+	border-radius: 50px;
+}
+
+.param-3 .block, .param-3 .line {
+	border: none;
+}
+
+.param-3 .block-1 {
+	outline: 4px solid #000;
+}
+
+.param-3 .block-2 {
+	outline: 5px dotted #2404da;
+}
+
+.param-3 .block-3 {
+	outline: 6px dashed #008000;
+}
+
+.param-3 .block-4 {
+	outline: 7px double #ff0000;
+}
+
+.param-3 .line {
+	outline: 4px dotted #ee82ee;
+}
+
+.param-4 .block-1 {
+	box-shadow: 5px 5px 15px 5px rgb(0, 0, 0);
+}
+
+.param-4 .block-2 {
+	box-shadow: 5px 5px 15px 5px inset rgb(0, 0, 0);
+}
+
+.param-4 .block-3 {
+	box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.param-4 .block-4 {
+	box-shadow: 0px 20px 0px -10px #d1d4d0, 0px -20px 0px -10px #d1d4d0, 20px 0px 0px -10px #d1d4d0, -20px 0px 0px -10px #d1d4d0, 0px 0px 0px 10px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.param-4 .block-5 {
+	border: 1px solid #000102;
+	box-shadow: 5px 5px 0px 0px #000102ab, 10px 10px 0px 0px #00010293, 15px 15px 0px 0px #00010263, 20px 20px 0px 0px rgba(59, 67, 75, 0.288), 25px 25px 0px 0px #0001022a, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.param-4 .line {
+	box-shadow: 5px 5px 15px 5px rgb(0, 0, 0);
+}
+
+.param-5 .block-2 {
+	opacity: 0.75;
+}
+
+.param-5 .block-3 {
+	opacity: 0.50;
+}
+
+.param-5 .block-4 {
+	opacity: 0.25;
+}
+
+.param-5 .block-5 {
+	opacity: 0;
+}
+
+.param-5 .line-2 {
+	opacity: 0.5;
+}
+
+.param-6 .block-2 {
+	visibility: hidden;
+}
+
+.param-6 .line-2 {
+	visibility: hidden;
+}
