@@ -1,6 +1,6 @@
 /* &display=swap - добавить в конце строки при использовании плагина Google Fonts 
 &subset=cyrillic-ext - добавить (без пробела) к выше указанному для работы кириллического начертания*/
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat:600,700&display=swap);
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 
 *,
